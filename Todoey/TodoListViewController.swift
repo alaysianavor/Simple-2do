@@ -11,7 +11,7 @@ import UIKit
 // is a TableView Controller
 class TodoListViewController: UITableViewController {
     
-    let itemArray = ["Find Mike", "Buy Eggs", "Call Johnny", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"]
+    var itemArray = ["Find Mike", "Buy Eggs", "Call Johnny", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"]
     let cellId = "TodoItemCell"
 
     // load
@@ -49,6 +49,29 @@ class TodoListViewController: UITableViewController {
         else {
             cell?.accessoryType = .checkmark
         }
+    }
+    
+    // Add New Items Tapped
+    @IBAction func addTapped(_ sender: Any) {
         
+        let alertController = UIAlertController.init(title: "Add New Item", message: nil, preferredStyle: .alert)
+        
+        // reference to the text-field
+        var alertTextField = UITextField()
+        
+        alertController.addTextField { (textField) in
+            textField.placeholder = "Placeholder text"
+            
+            // text-field reference
+            alertTextField = textField
+        }
+        
+        alertController.addAction(UIAlertAction.init(title: "Add Item", style: UIAlertActionStyle.default, handler: { (action) in
+            self.itemArray.append(alertTextField.text!)
+            self.tableView.reloadData()
+        }))
+        
+        // present the alert controller
+        self.present(alertController, animated: true, completion: nil)
     }
 }
