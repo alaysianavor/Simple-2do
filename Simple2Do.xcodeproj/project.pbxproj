@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7E181DE1FE7377F00A088C6 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E181DE1FE7377F00A088C6 /* Simple2Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple2Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E181E11FE7377F00A088C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E181E61FE7377F00A088C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7E181E81FE7377F00A088C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		F7E181D51FE7377F00A088C6 = {
 			isa = PBXGroup;
 			children = (
-				F7E181E01FE7377F00A088C6 /* Todoey */,
+				F7E181E01FE7377F00A088C6 /* Simple2Do */,
 				F7E181DF1FE7377F00A088C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		F7E181DF1FE7377F00A088C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7E181DE1FE7377F00A088C6 /* Todoey.app */,
+				F7E181DE1FE7377F00A088C6 /* Simple2Do.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7E181E01FE7377F00A088C6 /* Todoey */ = {
+		F7E181E01FE7377F00A088C6 /* Simple2Do */ = {
 			isa = PBXGroup;
 			children = (
 				F7E181E11FE7377F00A088C6 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				F7E181ED1FE7377F00A088C6 /* Info.plist */,
 				F7E181F31FE763E600A088C6 /* TodoListViewController.swift */,
 			);
-			path = Todoey;
+			path = Simple2Do;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7E181DD1FE7377F00A088C6 /* Todoey */ = {
+		F7E181DD1FE7377F00A088C6 /* Simple2Do */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7E181F01FE7377F00A088C6 /* Build configuration list for PBXNativeTarget "Todoey" */;
+			buildConfigurationList = F7E181F01FE7377F00A088C6 /* Build configuration list for PBXNativeTarget "Simple2Do" */;
 			buildPhases = (
 				F7E181DA1FE7377F00A088C6 /* Sources */,
 				F7E181DB1FE7377F00A088C6 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Todoey;
+			name = Simple2Do;
 			productName = Todoey;
-			productReference = F7E181DE1FE7377F00A088C6 /* Todoey.app */;
+			productReference = F7E181DE1FE7377F00A088C6 /* Simple2Do.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,16 +91,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Mudasir Ahmed";
 				TargetAttributes = {
 					F7E181DD1FE7377F00A088C6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F7E181D91FE7377F00A088C6 /* Build configuration list for PBXProject "Todoey" */;
+			buildConfigurationList = F7E181D91FE7377F00A088C6 /* Build configuration list for PBXProject "Simple2Do" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7E181DD1FE7377F00A088C6 /* Todoey */,
+				F7E181DD1FE7377F00A088C6 /* Simple2Do */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +178,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +237,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +245,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -280,7 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mudasir.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -295,7 +300,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mudasir.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -303,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7E181D91FE7377F00A088C6 /* Build configuration list for PBXProject "Todoey" */ = {
+		F7E181D91FE7377F00A088C6 /* Build configuration list for PBXProject "Simple2Do" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7E181EE1FE7377F00A088C6 /* Debug */,
@@ -312,7 +317,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7E181F01FE7377F00A088C6 /* Build configuration list for PBXNativeTarget "Todoey" */ = {
+		F7E181F01FE7377F00A088C6 /* Build configuration list for PBXNativeTarget "Simple2Do" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7E181F11FE7377F00A088C6 /* Debug */,
