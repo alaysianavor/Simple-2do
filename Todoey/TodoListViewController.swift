@@ -11,8 +11,8 @@ import UIKit
 // is a TableView Controller
 class TodoListViewController: UITableViewController {
     
-    var itemArray = ["Find Mike", "Buy Eggs", "Call Johnny", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen", "Twenty"]
-    let cellId = "TodoItemCell"
+    var itemArray = ["Simple To Do List", "Made by Alaysia & Yong", "AP CSP 2018-2019"]
+    let ToDoCell = "TodoItemCell"
 
     // load
     override func viewDidLoad() {
@@ -32,7 +32,7 @@ class TodoListViewController: UITableViewController {
 
     // cell for item
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: ToDoCell, for: indexPath)
         cell.textLabel?.text = itemArray[indexPath.row]
         return cell
     }
@@ -65,7 +65,6 @@ class TodoListViewController: UITableViewController {
             // text-field reference
             alertTextField = textField
         }
-        
         alertController.addAction(UIAlertAction.init(title: "Add Item", style: UIAlertActionStyle.default, handler: { (action) in
             self.itemArray.append(alertTextField.text!)
             self.tableView.reloadData()
