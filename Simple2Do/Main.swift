@@ -49,11 +49,14 @@ class TodoListViewController: UITableViewController {
             textField.placeholder = "Enter Task"
             alertTextField = textField
         }
-        let CancelTask = UIAlertAction(title: "Cancel", style: .cancel){(action:UIAlertAction!)in}
+        let CancelTask = UIAlertAction(title: "Cancel", style: .cancel){(action:UIAlertAction)in
+            print("task addition canceled");
+        }
         alertController.addAction(CancelTask)
         let AddTask = UIAlertAction(title: "Add", style: .default){(action:UIAlertAction)in
             self.ToDoArray.append(alertTextField.text!)
             self.tableView.reloadData()
+            print("task added");
         }
         alertController.addAction(AddTask)
         self.present(alertController, animated: true, completion: nil)
