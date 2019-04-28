@@ -1,3 +1,11 @@
+//
+//  Main.swift
+//  Simple2Do
+//
+//  Created by Alaysia & Yong on 04/01/19.
+//  Copyright © 2019 Yong & Alaysia. All rights reserved.
+//
+
 //necessary imports
 import UIKit
 import Foundation
@@ -25,10 +33,18 @@ class TodoListViewController: UITableViewController {
         return ToDoArray.count
     }
     
+
+    
+    
 //cell identifier
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: ToDoCell, for: indexPath)
         cell.textLabel?.text = ToDoArray[indexPath.row]
+       // randomizes the colors of each row
+        let redRandom = CGFloat(drand48())
+        let greenRandom = CGFloat(drand48())
+        let blueRandom = CGFloat(drand48())
+        cell.backgroundColor = UIColor(red: redRandom, green: greenRandom, blue: blueRandom, alpha: 1.0)
         return cell
     }
     
@@ -61,4 +77,5 @@ class TodoListViewController: UITableViewController {
         alertController.addAction(AddTask)
         self.present(alertController, animated: true, completion: nil)
     }
+    
 }

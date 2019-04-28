@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Todoey
+//  Simple2Do
 //
-//  Created by Mudasir Ahmed on 12/17/17.
-//  Copyright © 2017 Mudasir Ahmed. All rights reserved.
+//  Created by Alaysia & Yong on 04/01/19.
+//  Copyright © 2019 Yong & Alaysia. All rights reserved.
 //
 
 import UIKit
