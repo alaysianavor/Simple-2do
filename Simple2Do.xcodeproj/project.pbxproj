@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		266D67402275A78B0008851A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266D673F2275A78B0008851A /* Default-568h@2x.png */; };
+		266D67432275BC980008851A /* iconFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 266D67422275BC980008851A /* iconFinal.png */; };
 		F7E181E21FE7377F00A088C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E181E11FE7377F00A088C6 /* AppDelegate.swift */; };
 		F7E181E71FE7377F00A088C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E181E51FE7377F00A088C6 /* Main.storyboard */; };
 		F7E181E91FE7377F00A088C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E181E81FE7377F00A088C6 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		266D673F2275A78B0008851A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		266D67422275BC980008851A /* iconFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iconFinal.png; path = ../../../../Downloads/iconFinal.png; sourceTree = "<group>"; };
 		F7E181DE1FE7377F00A088C6 /* Simple2Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple2Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E181E11FE7377F00A088C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E181E61FE7377F00A088C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				F7E181ED1FE7377F00A088C6 /* Info.plist */,
+				266D67422275BC980008851A /* iconFinal.png */,
 			);
 			path = Info;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				F7E181EC1FE7377F00A088C6 /* LaunchScreen.storyboard in Resources */,
 				266D67402275A78B0008851A /* Default-568h@2x.png in Resources */,
+				266D67432275BC980008851A /* iconFinal.png in Resources */,
 				F7E181E91FE7377F00A088C6 /* Assets.xcassets in Resources */,
 				F7E181E71FE7377F00A088C6 /* Main.storyboard in Resources */,
 			);
