@@ -45,6 +45,9 @@ class TodoListViewController: UITableViewController {
         let greenRandom = CGFloat(drand48())
         let blueRandom = CGFloat(drand48())
         cell.backgroundColor = UIColor(red: redRandom, green: greenRandom, blue: blueRandom, alpha: 1.0)
+       // rounds the rectangle corners
+        cell.layer.cornerRadius = 25
+        cell.layer.masksToBounds = true
         return cell
     }
     
