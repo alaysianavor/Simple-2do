@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266D67402275A78B0008851A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 266D673F2275A78B0008851A /* Default-568h@2x.png */; };
 		F7E181E21FE7377F00A088C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E181E11FE7377F00A088C6 /* AppDelegate.swift */; };
 		F7E181E71FE7377F00A088C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E181E51FE7377F00A088C6 /* Main.storyboard */; };
 		F7E181E91FE7377F00A088C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E181E81FE7377F00A088C6 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		266D673F2275A78B0008851A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F7E181DE1FE7377F00A088C6 /* Simple2Do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple2Do.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E181E11FE7377F00A088C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E181E61FE7377F00A088C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,9 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		266D67412275A82A0008851A /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F7E181ED1FE7377F00A088C6 /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
 		F7E181D51FE7377F00A088C6 = {
 			isa = PBXGroup;
 			children = (
+				266D673F2275A78B0008851A /* Default-568h@2x.png */,
 				F7E181E01FE7377F00A088C6 /* Simple2Do */,
 				F7E181DF1FE7377F00A088C6 /* Products */,
 			);
@@ -58,7 +69,7 @@
 				F7E181E51FE7377F00A088C6 /* Main.storyboard */,
 				F7E181E81FE7377F00A088C6 /* Assets.xcassets */,
 				F7E181EA1FE7377F00A088C6 /* LaunchScreen.storyboard */,
-				F7E181ED1FE7377F00A088C6 /* Info.plist */,
+				266D67412275A82A0008851A /* Info */,
 				F7E181F31FE763E600A088C6 /* Main.swift */,
 			);
 			path = Simple2Do;
@@ -125,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E181EC1FE7377F00A088C6 /* LaunchScreen.storyboard in Resources */,
+				266D67402275A78B0008851A /* Default-568h@2x.png in Resources */,
 				F7E181E91FE7377F00A088C6 /* Assets.xcassets in Resources */,
 				F7E181E71FE7377F00A088C6 /* Main.storyboard in Resources */,
 			);
@@ -281,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 477W7SW8HW;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Simple2Do/Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mudasir.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 477W7SW8HW;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Simple2Do/Info/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mudasir.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
