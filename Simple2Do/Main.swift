@@ -59,7 +59,7 @@ class TodoListViewController: UITableViewController {
         }
     }
     
-    //add button
+//add button
     @IBAction func AddItem(_ sender: Any) {
         
         let alertController = UIAlertController.init(title: "New Task", message: nil, preferredStyle: .alert)
@@ -81,7 +81,7 @@ class TodoListViewController: UITableViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
-    //info button
+//info button
     @IBAction func infoButton(_ sender: Any) {
         let alertController = UIAlertController.init(title: "Information", message: "AP Computer Science Principles 2018-2019", preferredStyle: .alert)
         let okButton = UIAlertAction(title: "OK", style: .cancel){(action:UIAlertAction)in
@@ -91,11 +91,4 @@ class TodoListViewController: UITableViewController {
         self.present(alertController, animated: true, completion: nil)
         }
     
-    
-    
-    
-    
-    
-    
-
 }
