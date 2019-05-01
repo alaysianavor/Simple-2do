@@ -13,7 +13,7 @@ import Foundation
 //Table view controller class establishment
 class TodoListViewController: UITableViewController {
     
-    var ToDoArray = ["Simple To Do List", "Made by Alaysia & Yong", "AP CSP 2018-2019"]
+    var ToDoArray = ["Simple To Do List", "Made by APCSP Students", "AP CSP 2018-2019"]
     let ToDoCell = "TodoItemCell"
 
 //load
@@ -81,4 +81,21 @@ class TodoListViewController: UITableViewController {
         self.present(alertController, animated: true, completion: nil)
     }
     
+    //info button
+    @IBAction func infoButton(_ sender: Any) {
+        let alertController = UIAlertController.init(title: "Information", message: "AP Computer Science Principles 2018-2019", preferredStyle: .alert)
+        let okButton = UIAlertAction(title: "OK", style: .cancel){(action:UIAlertAction)in
+            print("OK");
+        }
+        alertController.addAction(okButton)
+        self.present(alertController, animated: true, completion: nil)
+        }
+    
+    
+    
+    
+    
+    
+    
+
 }

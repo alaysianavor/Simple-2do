@@ -33,6 +33,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Simple2Do" id="9sD-Jk-rH2">
+                        <barButtonItem key="leftBarButtonItem" title="Info" style="plain" id="Moz-Bz-xI6">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="infoButton:" destination="gJY-eO-8U7" id="9fH-sV-v48"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Gac-bE-VMs">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
