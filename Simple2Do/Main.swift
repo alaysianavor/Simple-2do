@@ -83,7 +83,7 @@ class TodoListViewController: UITableViewController {
     
 //info button
     @IBAction func infoButton(_ sender: Any) {
-        let alertController = UIAlertController.init(title: "Information", message: "AP Computer Science Principles 2018-2019", preferredStyle: .alert)
+        let alertController = UIAlertController.init(title: "Amount of Items to be Completed:", message: "\(ToDoArray.count)", preferredStyle: .alert)
         let okButton = UIAlertAction(title: "OK", style: .cancel){(action:UIAlertAction)in
             print("OK");
         }

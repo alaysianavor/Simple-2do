@@ -39,12 +39,17 @@
                                 <action selector="infoButton:" destination="gJY-eO-8U7" id="9fH-sV-v48"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Gac-bE-VMs">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <connections>
-                                <action selector="AddItem:" destination="gJY-eO-8U7" id="v5O-VK-sdg"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="add" id="Gac-bE-VMs">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="AddItem:" destination="gJY-eO-8U7" id="v5O-VK-sdg"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="search" id="NGZ-7S-9VE">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="80q-Ee-Qkc" userLabel="First Responder" sceneMemberID="firstResponder"/>
